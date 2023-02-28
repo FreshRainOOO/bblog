@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [vue(), plugin({
     mode: ["html"],
   })],
-  base: '/bblog/',//GitHub部署目录名
+  // base: '/bblog/',//GitHub部署目录名
   css: {
     // 预处理器配置项
     preprocessorOptions: {
